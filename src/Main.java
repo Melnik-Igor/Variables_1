@@ -9,34 +9,34 @@ public class Main {
     var paper = 73789;
         System.out.println("paper = " + paper);
 
-        dog = dog + 4;
+        dog += 4;
         System.out.println("dog + 4 = " + dog);
-        cat = cat + 4;
+        cat += 4;
         System.out.println("cat + 4 = " + cat);
-        paper = paper + 4;
+        paper += 4;
         System.out.println("paper + 4 = " + paper);
 
-        dog = dog - 3.5;
+        dog -= 3.5;
         System.out.println("dog - 3.5 = " + dog);
-        cat = cat - 1.6;
+        cat -= 1.6;
         System.out.println("cat - 1.6 = " + cat);
-        paper = paper - 7639;
+        paper -= 7639;
         System.out.println("paper - 7639 = " + paper);
 
     var friend = 19;
         System.out.println("friend = " + friend);
-        friend = friend + 2;
+        friend += 2;
         System.out.println("friend + 2 = " + friend);
-        friend = friend / 7;
+        friend /= 7;
         System.out.println("friend / 7 = " + friend);
 
     var frog = 3.5;
         System.out.println("frog = " + frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println("frog * 10 = " + frog);
-        frog = frog / 3.5;
+        frog /= 3.5;
         System.out.println("frog / 3.5 = " + frog);
-        frog = frog + 4;
+        frog += 4;
         System.out.println("frog + 4 = " + frog);
 
     var boxer1 = 78.2;
@@ -61,9 +61,9 @@ public class Main {
         System.out.println("В компании работает на " + econdPartStaff + " человек больше.");
     var totalNumEmplWork = numberEmployees + econdPartStaff;
         System.out.println("Всего работает в компании " + totalNumEmplWork + " человек.");
-    var openingHours = totalNumEmplWork * eachEmplDedWork;
+    var openingHours = totalNumWorkHours / totalNumEmplWork;
         System.out.println("Если в компании работает " + totalNumEmplWork + " человек, то всего "
-                + openingHours + " часов работы может быть поделено между сотрудниками.");
+                + openingHours + " часа работы может быть поделено между сотрудниками.");
 
 
 
